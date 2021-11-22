@@ -1,0 +1,425 @@
+/* container --------> 1210px */
+
+@media (max-width:1210px) {
+    .container {
+        max-width: 1024px;
+    }
+    .header .header-bottom .banner-img img {
+        margin-top: 56px;
+        width: 600px;
+        height: 674px;
+    }
+    .about .about-card {
+        width: 300px;
+        height: 300px;
+    }
+    .about .about-card2 {
+        margin-top: 150px;
+        margin-left: 10px;
+    }
+    .about .about-card2 img
+    {
+        width: 100%;
+        max-width: 250px;
+        height: 280px;
+    }
+    .about .about-card3 .bg{
+        height: 250px;
+    }
+    .about .about-card3 {
+        margin-left: -5px;
+    }
+    .about .about-center .about-title {
+        margin-top: -100px;
+    }
+    .about .about-center:hover>.about-title {
+        margin-top: -99px;
+    }
+    .about .about-center .about-subtitle {
+        overflow: scroll;
+    }
+    .about .about-center .about-subtitle::-webkit-scrollbar {
+        display: none;
+    }
+    .portfolio .portfolio-card {
+        width: 800px;
+        left: 80px;
+    }
+    .portfolio .portfolio-card .portfolio-img {
+        width: 55%;
+    }
+}
+
+
+/*  ---------> 1024 */
+
+@media (max-width:1024px) {
+    .container {
+        max-width: 768px;
+    }
+    .header .header-top .logoText p {
+        margin-left: 15px;
+    }
+    .header-bottom .banner-content {
+        width: 40%;
+    }
+    .header .header-bottom .banner-img {
+        width: 60%;
+    }
+    .header .header-bottom .banner-img img {
+        margin-top: -7px;
+        width: 550px;
+        height: 600px;
+    }
+    .header-bottom .banner-content .banner-text .name-text {
+        font-size: 50px;
+        line-height: 60px;
+        width: 400px;
+    }
+    .header-bottom .banner-content .banner-btn {
+        width: 150px;
+        height: 40px;
+        font-size: 17px;
+    }
+    .about .about-left {
+        display: flex;
+        justify-content: center;
+    }
+    .about .about-card2 {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .about .about-card3 {
+        width: 610px;
+        height: 420px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .about .about-card3 .bg {
+        width: 560px;
+        height: 380px;
+        object-fit: cover;
+    }
+    .about .about-center {
+        width: 610px;
+        height: 600px;
+        margin-left: 15px;
+        padding: 0px 40px;
+    }
+    .about .about-center .about-title {
+        margin-top: 7px;
+        margin-bottom: 15px;
+    }
+    .about .about-center:hover>.about-title {
+        margin-top: -7px;
+    }
+    .portfolio .portfolio-card {
+        width: 600px;
+        height: 600px;
+        padding: 25px;
+        left: 80px;
+        flex-direction: column;
+    }
+    .portfolio .portfolio-card .portfolio-img {
+        width: 100%;
+        height: 500px;
+    }
+    .portfolio .portfolio-card .portfolio-info {
+        width: 100%;
+        height: 400px;
+        margin-top: 15px;
+        overflow-y: scroll;
+    }
+    .portfolio .portfolio-card .portfolio-info::-webkit-scrollbar {
+        display: none;
+    }
+    .portfolio .container .fa-arrow-circle-left,
+    .portfolio .container .fa-arrow-circle-right {
+        margin-top: 42%;
+    }
+    .portfolio .container .fa-arrow-circle-right {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        max-width: 468px;
+    }
+    .header-top {
+        position: fixed;
+        z-index: 3;
+        background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+        -webkit-box-shadow: 1px 10px 68px 46px rgba(0, 196, 240, 0.2);
+        -moz-box-shadow: 1px 10px 68px 46px rgba(0, 196, 240, 0.2);
+        box-shadow: 1px 10px 68px 46px rgba(0, 196, 240, 0.2);
+        border-bottom: 2px solid #00C4F0;
+        width: 100%;
+    }
+    .header-top .container .header-burger {
+        display: block;
+        position: absolute;
+        left: 82%;
+        margin-bottom: 10px;
+    }
+    .header-top .container .menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+        color: #fff;
+        max-width: 350px;
+        height: 100%;
+        flex-direction: column;
+        padding: 55px 0;
+        transition: 0.5s;
+        transform: translateX(-100%);
+        z-index: 2;
+    }
+    .header-top .container .menu.active {
+        transform: translateX(0);
+        -webkit-box-shadow: 1px 10px 68px 46px rgba(0, 196, 240, 0.2);
+        -moz-box-shadow: 1px 10px 68px 46px rgba(0, 196, 240, 0.2);
+        box-shadow: 1px 10px 68px 46px rgba(0, 196, 240, 0.2);
+        border-right: 2px solid #00C4F0;
+    }
+    .header .header-top .logo {
+        position: relative;
+        z-index: 99999;
+        margin-bottom: 10px;
+    }
+    .header .header-bottom .container {
+        flex-direction: column;
+    }
+    .header-bottom .banner-content {
+        width: 100%;
+    }
+    .header .header-bottom .banner-img {
+        width: 100%;
+    }
+    .header .header-top .logoText p {
+        margin-left: 15px;
+    }
+    .header .header-bottom .banner-img {
+        order: -1;
+        margin-top: 70px;
+    }
+    .header .header-bottom .banner-img img {
+        width: 450px;
+        height: 450px;
+        margin-left: -5px;
+    }
+    .header-bottom .banner-content {
+        text-align: center;
+        margin-top: -100px;
+        margin-bottom: 20px;
+    }
+    .header-bottom .banner-content .banner-text .name-text {
+        font-size: 25px;
+        line-height: 30px;
+        width: 100%;
+    }
+    .header-bottom .banner-content .banner-btn {
+        margin: 0 auto;
+    }
+    .about .about-left {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .about-center {
+        width: 300px;
+        height: 400px;
+        margin: 10px 0 10px 20px;
+        padding: 15px;
+    }
+    .about .about-center:hover {
+        padding: 15px;
+    }
+    .about .about-center:hover>.about-title {
+        margin-top: 5px;
+    }
+    .about .about-card2 {
+        display: none;
+    }
+    .about .about-card3 {
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+    }
+    .about .about-card3 .bg {
+        width: 270px;
+        height: 280px;
+        background: url(../images/aboutMe2.png) no-repeat center / cover;
+    }
+    .portfolio .portfolio-card {
+        width: 400px;
+        height: 550px;
+        padding: 25px;
+        left: 30px;
+        z-index: 1;
+    }
+    .portfolio .container .fa-arrow-circle-left {
+        margin-left: 50px;
+    }
+    .portfolio .container .fa-arrow-circle-right {
+        margin-right: 50px;
+    }
+    .portfolio .container .fa-arrow-circle-left,
+    .portfolio .container .fa-arrow-circle-right {
+        margin-top: 600px;
+    }
+}
+
+@media (max-width:425px) {
+    .container {
+        width: 100%;
+    }
+    .header-top {
+        max-width: 425px;
+    }
+    .header .header-top .logo .logoIcon {
+        margin-left: 10px;
+    }
+    .header .header-top .logoText p {
+        font-size: 17px;
+    }
+    .header-top .container .header-burger {
+        left: 84%;
+    }
+    .header-top .container .menu {
+        max-width: 300px;
+    }
+    .header-bottom .banner-content {
+        padding: 10px;
+        margin: -110px 0 40px;
+    }
+    .header .header-bottom .banner-img img {
+        width: 415px;
+        height: 450px;
+    }
+    .contents .cards .card .card-title {
+        font-size: 22px;
+    }
+    .about .about-center .about-title {
+        font-size: 35px;
+    }
+    .about .about-center .about-subtitle {
+        font-size: 18px;
+    }
+    .portfolio {
+        padding: 60px 0 100px;
+        height: 750px;
+    }
+    .portfolio .portfolio-title {
+        font-size: 35px;
+    }
+    .portfolio .portfolio-card {
+        padding: 10px;
+        height: 450px;
+        left: 10px;
+    }
+    .portfolio .container .fa-arrow-circle-left,
+    .portfolio .container .fa-arrow-circle-right {
+        margin-top: 500px;
+    }
+}
+
+@media (max-width:375px) {
+    .header-top {
+        max-width: 375px;
+    }
+    .header .header-bottom .banner-img {
+        margin: 100px 0 20px 50px;
+        height: 370px;
+    }
+    .header .header-bottom .banner-img img {
+        width: 300px;
+        height: 350px;
+    }
+    .header-top .container .menu {
+        max-width: 280px;
+    }
+    .contents {
+        padding: 60px 0 50px;
+    }
+    .portfolio {
+        padding: 30px 0 50px;
+        height: 750px;
+    }
+    .portfolio .portfolio-card {
+        width: 300px;
+        left: 35px;
+    }
+    .portfolio .portfolio-title {
+        margin-bottom: 25px;
+    }
+    .footer {
+        padding: 25px 0;
+    }
+    .footer ul {
+        margin: 10px;
+    }
+    .footer ul li {
+        margin: 15px;
+    }
+}
+
+@media (max-width:320px) {
+    .header .header-top {
+        max-width: 320px;
+        padding:0 0 20px;
+    }
+    .header .header-bottom .banner-img {
+        margin: 100px 0 20px 0px;
+        height: 370px;
+    }
+    .header-bottom .banner-content .banner-text .hello-text {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header .header-top .logoText p{
+        display: none;
+    }
+    .header .header-bottom .banner-img {
+        margin-top: 80px;
+        height: 370px;
+    }
+    .header-top .container .menu {
+        max-width: 250px;
+    }
+    .contents {
+        padding: 60px 0 50px;
+    }
+    .contents .cards .card  {
+        width: 230px;
+        height: 230px;
+    }
+    .contents .cards .card .card-title {
+        font-size: 20px;
+    }
+    .about-me .about {
+        padding: 50px 0;
+    }
+    .about .about-card img{
+        width: 262px;
+        height: 270px;
+    }
+    .about .about-card3 .bg{
+        width: 252px;
+        height: 260px;
+    }
+    .about .about-card1,
+    .about .about-card3 {
+        width: 280px;
+        height: 280px;
+    }
+    .portfolio {
+        padding: 30px 0 ;
+        height: 700px;
+    }
+    .portfolio .portfolio-card {
+        width: 280px;
+        left: 20px;
+    }
+
+}

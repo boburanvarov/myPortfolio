@@ -1,0 +1,41 @@
+/* nextArt-700 */
+@font-face {
+    font-family: "nextArt-700";
+    src: url(../fonts/NEXTART-Bold.ttf);
+}
+
+/* nextArt-600 */
+@font-face {
+    font-family: "nextArt-600";
+    src: url(../fonts/NEXTART-SemiBold.ttf);
+}
+
+/* nextArt-600 */
+@font-face {
+    font-family: "nextArt-600";
+    src: url(../fonts/NEXTART-SemiBold.ttf);
+}
+
+/* nextArt-400 */
+@font-face {
+    font-family: "nextArt-400";
+    src: url(../fonts/NEXTART.ttf);
+}
+
+/* nextArt-400 */
+@font-face {
+    font-family: "nextArt-400";
+    src: url(../fonts/NEXTART.ttf);
+}
+
+/* nicoMoji-400 */
+@font-face {
+    font-family: "nicoMoji-400";
+    src: url(../fonts/NicoMoji-Regular.ttf);
+}
+
+/* ardora-300 */
+@font-face {
+    font-family: "ardora-300 ";
+    src: url(../fonts/ArodoraPro-Light.otf);
+}
